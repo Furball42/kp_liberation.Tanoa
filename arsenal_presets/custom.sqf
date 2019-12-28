@@ -17,7 +17,7 @@ GRLIB_arsenal_magazines = [
     "MRAWS_HEAT_F",
     "MRAWS_HE_F",
     "30Rnd_45ACP_Mag_SMG_01",
-    "130Rnd_338_Mag",
+    "130Rnd_338_Mag"
 ];
 
 GRLIB_arsenal_items = [
