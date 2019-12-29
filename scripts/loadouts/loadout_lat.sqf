@@ -27,6 +27,7 @@ for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag_Tr
 for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
 player addWeapon "Binocular";
+player addItemToBackpack "ACRE_PRC152";
 player addItemToUniform "FirstAidKit";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
@@ -51,7 +52,6 @@ player addHeadgear "H_HelmetB_tna_F";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
-player linkItem "ItemRadio";
 player linkItem "ItemGPS";
 
 
