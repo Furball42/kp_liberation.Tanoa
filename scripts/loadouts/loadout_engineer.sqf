@@ -23,6 +23,7 @@ player addBackpack "B_Kitbag_sgg";
 for "_i" from 1 to 4 do {player addItemToVest "30Rnd_65x39_caseless_mag";};
 for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
+player addItemToBackpack "ACRE_PRC152";
 player addItemToBackpack "ACE_Clacker";
 player addItemToBackpack "ACE_DefusalKit";
 player addItemToBackpack "ToolKit";
