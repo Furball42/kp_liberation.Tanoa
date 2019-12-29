@@ -30,6 +30,7 @@ player addItemToBackpack "ToolKit";
 player addItemToBackpack "MineDetector";
 for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addWeapon "Binocular";
+player addItemToBackpack "ACRE_PRC152";
 player addItemToUniform "FirstAidKit";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
