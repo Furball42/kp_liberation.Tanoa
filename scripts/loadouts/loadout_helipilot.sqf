@@ -17,6 +17,7 @@ player addPrimaryWeaponItem "30Rnd_45ACP_Mag_SMG_01";
 player forceAddUniform "U_B_HeliPilotCoveralls";
 player addVest "V_TacVest_blk";
 
+player addItemToVest "ACRE_PRC152";
 player addItemToUniform "FirstAidKit";
 player addItemToUniform "SmokeShellGreen";
 player addItemToVest "ACE_EarPlugs";
@@ -33,7 +34,6 @@ player addHeadgear "H_PilotHelmetHeli_B";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ItemWatch";
-player linkItem "ItemRadio";
 player linkItem "ItemGPS";
 player linkItem "NVGoggles";
 
