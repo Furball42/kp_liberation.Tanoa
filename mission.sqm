@@ -8,18 +8,18 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4539;
+		nextID=4540;
 	};
 	class LayerIndexProvider
 	{
-		nextID=1103;
+		nextID=1124;
 	};
 	class Camera
 	{
-		pos[]={117.60183,29.459499,1617.2308};
-		dir[]={-0.1693375,-0.33810914,0.92584938};
-		up[]={-0.060838718,0.94107425,0.33263546};
-		aside[]={0.9837625,3.0642332e-007,0.17992705};
+		pos[]={139.18811,28.41609,1616.6112};
+		dir[]={-0.90228885,-0.30519563,0.30456066};
+		up[]={-0.28916639,0.95228797,0.097606078};
+		aside[]={0.31981939,2.7073838e-007,0.94749153};
 	};
 };
 binarizationWanted=0;
@@ -65,13 +65,14 @@ addons[]=
 	"ace_parachute",
 	"MRHSatellite",
 	"A3_Structures_F_Civ_Camping",
-	"A3_Structures_F_Items_Electronics"
+	"A3_Structures_F_Items_Electronics",
+	"san_headlamp"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="A3_Ui_F";
@@ -246,6 +247,12 @@ class AddonsMetaData
 			name="MRHSatellite";
 			author="Mr H.";
 			url="https://github.com/MisterHLunaticwraith/MRHSatellite/issues";
+		};
+		class Item25
+		{
+			className="SAN_Headlamp";
+			name="san_headlamp";
+			author="MrSanchez";
 		};
 	};
 };
@@ -519,7 +526,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=327;
+		items=328;
 		class Item0
 		{
 			dataType="Marker";
@@ -20695,7 +20702,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={147.03499,27.06357,1614.2211};
-				angles[]={-0,2.4142263,0};
+				angles[]={0,2.4142263,0};
 			};
 			side="Empty";
 			flags=4;
@@ -20711,7 +20718,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={147.05119,27.06357,1619.0002};
-				angles[]={-0,5.2240467,0};
+				angles[]={0,5.2240467,0};
 			};
 			side="Empty";
 			flags=4;
@@ -20727,7 +20734,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={150.10851,24.668848,1615.65};
-				angles[]={-0,4.7281761,0};
+				angles[]={0,4.7281761,0};
 			};
 			side="Empty";
 			flags=4;
@@ -20787,6 +20794,173 @@ class Mission
 			id=4538;
 			type="Land_TripodScreen_01_large_F";
 			atlOffset=0.72883224;
+		};
+		class Item327
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={1400.458,3.5310476,599.526};
+			};
+			id=4539;
+			type="SAN_HeadlampSettings";
+			atlOffset=4.7683716e-007;
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="SAN_HeadlampSettings_HeadlampMode";
+					expression="_this setVariable ['HeadlampMode',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=2;
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="SAN_HeadlampSettings_AI_Manual_Headlamp_MinHour";
+					expression="_this setVariable ['AI_Manual_Headlamp_MinHour',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=20;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="SAN_HeadlampSettings_Multiplayer_Headlamp_UpdateRate";
+					expression="_this setVariable ['Multiplayer_Headlamp_UpdateRate',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=30;
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="SAN_HeadlampSettings_Headlamp_RenderDistance";
+					expression="_this setVariable ['Headlamp_RenderDistance',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=1500;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="SAN_HeadlampSettings_AI_Allowed_Headlamp";
+					expression="_this setVariable ['AI_Allowed_Headlamp',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="SAN_HeadlampSettings_AI_Headlamp_UpdateRate";
+					expression="_this setVariable ['AI_Headlamp_UpdateRate',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=10;
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="SAN_HeadlampSettings_AI_AutoEnable_Headlamp";
+					expression="_this setVariable ['AI_AutoEnable_Headlamp',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute7
+				{
+					property="SAN_HeadlampSettings_AI_Manual_Headlamp_MaxHour";
+					expression="_this setVariable ['AI_Manual_Headlamp_MaxHour',_value,true];";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=6;
+						};
+					};
+				};
+				nAttributes=8;
+			};
 		};
 	};
 	class Connections

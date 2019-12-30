@@ -72,6 +72,7 @@ GRLIB_arsenal_items = [
     "ItemRadio",
     "ItemGPS",
     "NVGoggles_tna_F",
+    "SAN_Headlamp_v2",
     "ace_morphine", //ace stuff
     "ace_fielddressing",
     "ACE_bloodIV",
