@@ -47,12 +47,12 @@ while {true} do {
 
 	showCinemaBorder false;
 	camUseNVG false;
-	respawn_camera = "camera" camCreate (getposATL startbase);
+	// respawn_camera = "camera" camCreate (getposATL startbase);
 	respawn_object = "Sign_Arrow_Blue_F" createVehicleLocal (getposATL startbase);
 	respawn_object hideObject true;
-	respawn_camera camSetTarget respawn_object;
-	respawn_camera cameraEffect ["internal","back"];
-	respawn_camera camcommit 0;
+	// respawn_camera camSetTarget respawn_object;
+	// respawn_camera cameraEffect ["internal","back"];
+	// respawn_camera camcommit 0;
 
 	waitUntil {dialog};
 
@@ -62,26 +62,26 @@ while {true} do {
 	_frame_pos = ctrlPosition ((findDisplay 5201) displayCtrl 198);
 
 	// Get loadouts either from ACE or BI arsenals
-	private ["_loadouts_data"];
-	if (KP_liberation_ace && KP_liberation_arsenal_type) then {
-		_loadouts_data = +(profileNamespace getVariable ["ace_arsenal_saved_loadouts", []]);
-	} else {
-		private _saved_loadouts = +(profileNamespace getVariable "bis_fnc_saveInventory_data");
-		_loadouts_data = [];
-		private _counter = 0;
-		if (!isNil "_saved_loadouts") then {
-			{
-				if (_counter % 2 == 0) then {
-					_loadouts_data pushback _x;
-				};
-				_counter = _counter + 1;
-			} forEach _saved_loadouts;
-		};
-	};
+	// private ["_loadouts_data"];
+	// if (KP_liberation_ace && KP_liberation_arsenal_type) then {
+	// 	_loadouts_data = +(profileNamespace getVariable ["ace_arsenal_saved_loadouts", []]);
+	// } else {
+	// 	private _saved_loadouts = +(profileNamespace getVariable "bis_fnc_saveInventory_data");
+	// 	_loadouts_data = [];
+	// 	private _counter = 0;
+	// 	if (!isNil "_saved_loadouts") then {
+	// 		{
+	// 			if (_counter % 2 == 0) then {
+	// 				_loadouts_data pushback _x;
+	// 			};
+	// 			_counter = _counter + 1;
+	// 		} forEach _saved_loadouts;
+	// 	};
+	// };
 
-	lbAdd [203, "--"];
-	{lbAdd [203, _x param [0]]} forEach _loadouts_data;
-	lbSetCurSel [203, 0];
+	// lbAdd [203, "--"];
+	// {lbAdd [203, _x param [0]]} forEach _loadouts_data;
+	// lbSetCurSel [203, 0];
 
 	while {dialog && alive player && deploy == 0} do {
 		choiceslist = [[_basenamestr, getposATL startbase]];
@@ -137,10 +137,10 @@ while {true} do {
 			((findDisplay 5201) displayCtrl 251) ctrlMapAnimAdd [0, 0.3,_transition_map_pos];
 			ctrlMapAnimCommit ((findDisplay 5201) displayCtrl 251);
 
-			respawn_camera camSetPos [(getpos respawn_object select 0) - 70, (getpos respawn_object select 1) + _startdist, (getpos respawn_object select 2) + _alti];
-			respawn_camera camcommit 0;
-			respawn_camera camSetPos [(getpos respawn_object select 0) - 70, (getpos respawn_object select 1) - _enddist, (getpos respawn_object select 2) + _alti];
-			respawn_camera camcommit 90;
+			// respawn_camera camSetPos [(getpos respawn_object select 0) - 70, (getpos respawn_object select 1) + _startdist, (getpos respawn_object select 2) + _alti];
+			// respawn_camera camcommit 0;
+			// respawn_camera camSetPos [(getpos respawn_object select 0) - 70, (getpos respawn_object select 1) - _enddist, (getpos respawn_object select 2) + _alti];
+			// respawn_camera camcommit 90;
 		};
 
 		if (_old_fullmap != fullmap) then {
@@ -179,8 +179,8 @@ while {true} do {
 		};
 	};
 
-	respawn_camera cameraEffect ["Terminate","back"];
-	camDestroy respawn_camera;
+	// respawn_camera cameraEffect ["Terminate","back"];
+	// camDestroy respawn_camera;
 	deleteVehicle respawn_object;
 	camUseNVG false;
 	"spawn_marker" setMarkerPosLocal markers_reset;
