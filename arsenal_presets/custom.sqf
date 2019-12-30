@@ -53,6 +53,7 @@ GRLIB_arsenal_items = [
     "1Rnd_SmokeBlue_Grenade_shell",
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_SmokeOrange_Grenade_shell",
+    "UGL_FlareWhite_F",
     "Chemlight_green", //chemlights
     "ACE_Chemlight_HiGreen",
     "ACE_Chemlight_HiRed",
