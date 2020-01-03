@@ -27,7 +27,6 @@ player addItemToBackpack "ACE_Clacker";
 player addItemToBackpack "ACE_DefusalKit";
 player addItemToBackpack "ToolKit";
 player addItemToBackpack "MineDetector";
-for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 player addWeapon "Binocular";
 player addItemToBackpack "ACRE_PRC152";
 player addItemToUniform "FirstAidKit";

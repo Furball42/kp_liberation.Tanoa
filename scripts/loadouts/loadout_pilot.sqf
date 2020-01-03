@@ -1,21 +1,20 @@
-if (!local player) exitWith {};
+if (!local this) exitWith {};
 
-removeAllWeapons player;
-removeAllItems player;
-removeAllAssignedItems player;
-removeUniform player;
-removeVest player;
-removeBackpack player;
-removeHeadgear player;
-removeGoggles player;
+removeAllWeapons this;
+removeAllItems this;
+removeAllAssignedItems this;
+removeUniform this;
+removeVest this;
+removeBackpack this;
+removeHeadgear this;
+removeGoggles this;
 
-player addWeapon "SMG_01_F";
-player addPrimaryWeaponItem "muzzle_snds_acp";
-player addPrimaryWeaponItem "optic_Holosight_smg";
-player addPrimaryWeaponItem "30Rnd_45ACP_Mag_SMG_01";
+this addWeapon "SMG_01_F";
+this addPrimaryWeaponItem "optic_Holosight_smg";
+this addPrimaryWeaponItem "30Rnd_45ACP_Mag_SMG_01";
 
-player forceAddUniform "U_B_HeliPilotCoveralls";
-player addVest "V_TacVest_blk";
+this forceAddUniform "U_B_PilotCoveralls";
+this addBackpack "ACE_NonSteerableParachute";
 
 player addItemToUniform "FirstAidKit";
 player addItemToVest "ACRE_PRC152";
@@ -29,11 +28,10 @@ for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {player addItemToVest "30Rnd_45ACP_Mag_SMG_01";};
 for "_i" from 1 to 3 do {player addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
-player addHeadgear "H_PilotHelmetHeli_B";
+this addHeadgear "H_PilotHelmetFighter_B";
+this addGoggles "G_Tactical_Black";
 
-player linkItem "ItemMap";
-player linkItem "ItemCompass";
-player linkItem "ItemWatch";
-player linkItem "ItemGPS";
-player linkItem "NVGoggles";
+this linkItem "ItemMap";
+this linkItem "ItemCompass";
+this linkItem "ACE_Altimeter";
 

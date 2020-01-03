@@ -6,7 +6,9 @@ GRLIB_arsenal_weapons = [
     "arifle_MX_khk_F",
     "launch_MRAWS_green_F",
     "SMG_01_F",
-    "MMG_02_black_F"
+    "MMG_02_black_F",
+    "arifle_MXM_khk_F",
+    "arifle_SDAR_F"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -17,7 +19,8 @@ GRLIB_arsenal_magazines = [
     "MRAWS_HEAT_F",
     "MRAWS_HE_F",
     "30Rnd_45ACP_Mag_SMG_01",
-    "130Rnd_338_Mag"
+    "130Rnd_338_Mag",
+    "20Rnd_556x45_UW_mag"
 ];
 
 GRLIB_arsenal_items = [
@@ -25,14 +28,23 @@ GRLIB_arsenal_items = [
     "U_B_T_Soldier_SL_F",
     "U_B_T_Soldier_AR_F",
     "U_B_HeliPilotCoveralls",
+    "U_B_PilotCoveralls",
+    "U_B_FullGhillie_lsh",
+    "U_B_Wetsuit",
     "V_PlateCarrierGL_tna_F", //vests
     "V_PlateCarrier2_tna_F",
     "V_PlateCarrier1_tna_F",
     "V_TacVest_blk",
+    "V_Chestrig_oli",
+    "V_RebreatherB",
     "H_HelmetB_Enh_tna_F", //helmets
     "H_HelmetB_tna_F",
     "H_HelmetB_Light_tna_F",
     "H_PilotHelmetHeli_B",
+    "H_PilotHelmetFighter_B",
+    "H_MilCap_tna_F",
+    "H_Shemag_olive",
+    "H_Booniehat_oli",
     "acc_pointer_IR", //optics and weapon items
     "optic_Hamr_khk_F",
     "optic_Holosight_khk_F",
@@ -41,6 +53,11 @@ GRLIB_arsenal_items = [
     "muzzle_snds_H_khk_F",
     "muzzle_snds_acp",
     "bipod_01_F_blk",
+    "muzzle_snds_65_TI_blk_F",
+    "ACE_acc_pointer_green",
+    "optic_ERCO_khk_F",
+    "bipod_01_F_snd",
+    "muzzle_snds_H_khk_F",
     "MiniGrenade", //grenades
     "HandGrenade",
     "1Rnd_HE_Grenade_shell",
@@ -64,6 +81,10 @@ GRLIB_arsenal_items = [
     "MineDetector",
     "SatchelCharge_Remote_Mag",
     "DemoCharge_Remote_Mag",
+    "APERSMine_Range_Mag",
+    "APERSBoundingMine_Range_Mag",
+    "ClaymoreDirectionalMine_Remote_Mag",
+    "SLAMDirectionalMine_Wire_Mag",
     "Binocular", //gear
     "Rangefinder",
     "FirstAidKit",
@@ -74,8 +95,12 @@ GRLIB_arsenal_items = [
     "ItemGPS",
     "NVGoggles_tna_F",
     "SAN_Headlamp_v2",
+    "G_B_Diving",
+    "NVGoggles_OPFOR",
     "ace_morphine", //ace stuff
     "ace_fielddressing",
+    "ACE_packingbandage",
+    "ACE_tourniquet",
     "ACE_bloodIV",
     "ACE_EarPlugs",
     "ACE_epinephrine",
@@ -83,11 +108,20 @@ GRLIB_arsenal_items = [
     "ACE_MapTools",
     "ACE_Flashlight_XL50",
     "ACE_RangeCard",
-    "ACE_Altimeter"
+    "ACE_RangeTable_82mm",
+    "ACE_Altimeter",
+    "ACE_SpottingScope",
+    "ACE_microDAGR",
+    "ACE_HuntIR_monitor"
 ];
 
 GRLIB_arsenal_backpacks = [
     "B_AssaultPack_tna_F",
     "B_Kitbag_sgg",
-    "B_Carryall_oli"
+    "B_Carryall_oli",
+    "B_Kitbag_rgr_Exp",
+    "B_Mortar_01_weapon_F",
+    "B_Mortar_01_support_F",
+    "B_UAV_01_backpack_F",
+    "B_AssaultPack_blk"
 ];
