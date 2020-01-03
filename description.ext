@@ -7,13 +7,13 @@ enableDebugConsole = 1;
 allowFunctionsLog = 0;
 unsafeCVL = 1;
 
-briefingName = $STR_MISSION_TITLE;
+briefingName = "H.S.C.U Liberation - Tanoa";
 overviewText = "";
-overviewPicture = "res\lib.paa";
+overviewPicture = "res\tanoa_lib.jpg";
 author = "[HSCU] Furball";
-onLoadName = $STR_MISSION_TITLE;
+onLoadName = "H.S.C.U Liberation - Tanoa";
 onLoadMission = "";
-loadScreen = "res\lib.paa";
+loadScreen = "res\tanoa_lib.jpg";
 
 joinUnassigned = 1;
 
