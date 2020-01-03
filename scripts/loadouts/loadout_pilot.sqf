@@ -10,14 +10,12 @@ removeHeadgear player;
 removeGoggles player;
 
 player addWeapon "SMG_01_F";
-player addPrimaryWeaponItem "muzzle_snds_acp";
 player addPrimaryWeaponItem "optic_Holosight_smg";
 player addPrimaryWeaponItem "30Rnd_45ACP_Mag_SMG_01";
 
-player forceAddUniform "U_B_HeliPilotCoveralls";
-player addVest "V_TacVest_blk";
+player forceAddUniform "U_B_PilotCoveralls";
+player addBackpack "ACE_NonSteerableParachute";
 
-player addItemToUniform "FirstAidKit";
 player addItemToVest "ACRE_PRC152";
 player addItemToUniform "SmokeShellGreen";
 player addItemToVest "ACE_EarPlugs";
@@ -29,11 +27,10 @@ for "_i" from 1 to 5 do {player addItemToVest "ACE_fieldDressing";};
 for "_i" from 1 to 5 do {player addItemToVest "30Rnd_45ACP_Mag_SMG_01";};
 for "_i" from 1 to 3 do {player addItemToVest "SmokeShell";};
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
-player addHeadgear "H_PilotHelmetHeli_B";
+player addHeadgear "H_PilotHelmetFighter_B";
+player addGoggles "G_Tactical_Black";
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
-player linkItem "ItemGPS";
-player linkItem "NVGoggles";
+player linkItem "ACE_Altimeter";
 

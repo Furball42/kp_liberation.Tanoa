@@ -18,7 +18,7 @@ player addSecondaryWeaponItem "MRAWS_HEAT_F";
 player addWeapon "hgun_P07_khk_F";
 player addHandgunItem "16Rnd_9x21_Mag";
 
-player forceAddUniform "U_B_T_Soldier_F";
+player forceAddUniform "U_B_T_Soldier_AR_F";
 player addVest "V_PlateCarrier2_tna_F";
 player addBackpack "B_Carryall_oli";
 
@@ -28,7 +28,6 @@ for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
 player addWeapon "Binocular";
 player addItemToBackpack "ACRE_PRC152";
-player addItemToUniform "FirstAidKit";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiRed";};

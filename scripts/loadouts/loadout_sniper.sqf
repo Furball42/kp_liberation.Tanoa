@@ -9,22 +9,21 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-player addWeapon "arifle_MX_khk_F";
-player addPrimaryWeaponItem "acc_pointer_IR";
-player addPrimaryWeaponItem "optic_Hamr";
-player addPrimaryWeaponItem "30Rnd_65x39_caseless_khaki_mag";
-player addWeapon "hgun_P07_khk_F";
+player addWeapon "srifle_LRR_tna_F";
+player addPrimaryWeaponItem "optic_LRPS";
+player addPrimaryWeaponItem "7Rnd_408_Mag";
+player addWeapon "hgun_P07_F";
+player addHandgunItem "muzzle_snds_L";
 player addHandgunItem "16Rnd_9x21_Mag";
 
-player forceAddUniform "U_B_T_Soldier_F";
-player addVest "V_PlateCarrier1_tna_F";
+player forceAddUniform "U_B_FullGhillie_lsh";
+player addVest "V_Chestrig_oli";
 player addBackpack "B_AssaultPack_tna_F";
 
-for "_i" from 1 to 5 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag";};
-for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag_Tracer";};
+for "_i" from 1 to 3 do {player addItemToUniform "7Rnd_408_Mag";};
 for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
-player addWeapon "Binocular";
+player addWeapon "Rangefinder";
 player addItemToBackpack "ACRE_PRC152";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
@@ -43,11 +42,11 @@ player addItemToBackpack "ACE_Flashlight_XL50";
 for "_i" from 1 to 4 do {player addItemToBackpack "ACE_morphine";};
 player addItemToBackpack "ACE_RangeCard";
 player addItemToBackpack "NVGoggles_tna_F";
+player addItemToVest "ACE_microDAGR";
 player addHeadgear "H_HelmetB_tna_F";
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
 player linkItem "ItemGPS";
-
 

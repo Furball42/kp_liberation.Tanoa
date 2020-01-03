@@ -18,8 +18,6 @@ player forceAddUniform "U_B_HeliPilotCoveralls";
 player addVest "V_TacVest_blk";
 
 player addItemToVest "ACRE_PRC152";
-player addItemToUniform "FirstAidKit";
-player addItemToVest "ACRE_PRC152";
 player addItemToUniform "SmokeShellGreen";
 player addItemToVest "ACE_EarPlugs";
 player addItemToVest "ACE_MapTools";
@@ -34,7 +32,7 @@ player addHeadgear "H_PilotHelmetHeli_B";
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
-player linkItem "ItemWatch";
+player linkItem "ACE_Altimeter";
 player linkItem "ItemGPS";
 player linkItem "NVGoggles";
 
