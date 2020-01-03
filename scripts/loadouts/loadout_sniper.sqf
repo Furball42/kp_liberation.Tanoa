@@ -25,7 +25,6 @@ for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
 player addWeapon "Rangefinder";
 player addItemToBackpack "ACRE_PRC152";
-player addItemToUniform "FirstAidKit";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiRed";};
@@ -43,6 +42,7 @@ player addItemToBackpack "ACE_Flashlight_XL50";
 for "_i" from 1 to 4 do {player addItemToBackpack "ACE_morphine";};
 player addItemToBackpack "ACE_RangeCard";
 player addItemToBackpack "NVGoggles_tna_F";
+player addItemToVest "ACE_microDAGR";
 player addHeadgear "H_HelmetB_tna_F";
 
 player linkItem "ItemMap";

@@ -28,7 +28,6 @@ for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
 player addWeapon "Rangefinder";
 player addItemToBackpack "ACRE_PRC152";
-player addItemToUniform "FirstAidKit";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiRed";};

@@ -23,6 +23,7 @@ player addBackpack "B_AssaultPack_tna_F";
 for "_i" from 1 to 5 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag";};
 for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag_Tracer";};
 for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
+for "_i" from 1 to 5 do {player addItemToBackpack "7Rnd_408_Mag";};
 
 player addWeapon "Rangefinder";
 player addItemToBackpack "ACRE_PRC152";
@@ -44,6 +45,7 @@ player addItemToBackpack "ACE_Flashlight_XL50";
 for "_i" from 1 to 4 do {player addItemToBackpack "ACE_morphine";};
 player addItemToBackpack "ACE_RangeCard";
 player addItemToBackpack "NVGoggles_tna_F";
+player addItemToVest "ACE_microDAGR";
 player addHeadgear "H_HelmetB_tna_F";
 player addItemToBackpack "ACE_SpottingScope";
 

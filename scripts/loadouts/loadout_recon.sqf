@@ -12,7 +12,6 @@ removeGoggles player;
 player addWeapon "arifle_MX_GL_khk_F";
 player addPrimaryWeaponItem "muzzle_snds_H_khk_F";
 player addPrimaryWeaponItem "ACE_acc_pointer_green";
-player addPrimaryWeaponItem "acc_pointer_IR";
 player addPrimaryWeaponItem "optic_Hamr";
 player addPrimaryWeaponItem "30Rnd_65x39_caseless_khaki_mag";
 player addWeapon "hgun_P07_khk_F";

@@ -10,8 +10,9 @@ removeHeadgear player;
 removeGoggles player;
 
 player addWeapon "arifle_MX_khk_F";
-player addPrimaryWeaponItem "acc_pointer_IR";
-player addPrimaryWeaponItem "optic_Aco";
+player addPrimaryWeaponItem "muzzle_snds_H_khk_F";
+player addPrimaryWeaponItem "ACE_acc_pointer_green";
+player addPrimaryWeaponItem "optic_Hamr";
 player addPrimaryWeaponItem "30Rnd_65x39_caseless_khaki_mag";
 player addWeapon "hgun_P07_F";
 player addHandgunItem "16Rnd_9x21_Mag";
@@ -25,7 +26,6 @@ for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
 player addWeapon "Rangefinder";
 player addItemToVest "ACRE_PRC152";
-player addItemToUniform "FirstAidKit";
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_Chemlight_HiGreen";};
 for "_i" from 1 to 2 do {player addItemToUniform "ACE_Chemlight_HiRed";};
 for "_i" from 1 to 3 do {player addItemToUniform "SmokeShell";};
@@ -45,5 +45,5 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
 player linkItem "B_UavTerminal";
-player linkItem "NVGoggles";
+player linkItem "NVGoggles_OPFOR";
 

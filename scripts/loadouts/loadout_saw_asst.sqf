@@ -21,7 +21,6 @@ player addVest "V_PlateCarrier1_tna_F";
 player addBackpack "B_Carryall_oli";
 
 player addWeapon "Rangefinder";
-player addItemToUniform "FirstAidKit";
 for "_i" from 1 to 5 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag";};
 for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag_Tracer";};
 for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};

@@ -11,9 +11,9 @@ removeGoggles player;
 
 player addWeapon "arifle_MXC_khk_F";
 player addPrimaryWeaponItem "acc_pointer_IR";
-player addPrimaryWeaponItem "optic_Holosight";
+player addPrimaryWeaponItem "optic_Hamr";
 player addPrimaryWeaponItem "30Rnd_65x39_caseless_khaki_mag";
-player addWeapon "hgun_P07_F";
+player addWeapon "hgun_P07_khk_F";
 player addHandgunItem "16Rnd_9x21_Mag";
 
 for "_i" from 1 to 5 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag";};
@@ -25,7 +25,6 @@ player addVest "V_PlateCarrierGL_tna_F";
 player addBackpack "B_Kitbag_rgr_Exp";
 
 player addWeapon "Binocular";
-player addItemToUniform "FirstAidKit";
 player addItemToBackpack "ACRE_PRC152";
 player addItemToUniform "ACE_DefusalKit";
 player addItemToVest "SmokeShellGreen";
@@ -46,10 +45,8 @@ for "_i" from 1 to 4 do {player addItemToBackpack "ACE_morphine";};
 player addItemToBackpack "ACE_RangeCard";
 player addItemToBackpack "NVGoggles_tna_F";
 player addItemToBackpack "ACE_Clacker";
-for "_i" from 1 to 3 do {player addItemToBackpack "APERSMine_Range_Mag";};
-for "_i" from 1 to 2 do {player addItemToBackpack "APERSBoundingMine_Range_Mag";};
-for "_i" from 1 to 2 do {player addItemToBackpack "ClaymoreDirectionalMine_Remote_Mag";};
-for "_i" from 1 to 2 do {player addItemToBackpack "SLAMDirectionalMine_Wire_Mag";};
+player addItemToBackpack "APERSBoundingMine_Range_Mag";
+player addItemToBackpack "SLAMDirectionalMine_Wire_Mag";
 for "_i" from 1 to 3 do {player addItemToBackpack "DemoCharge_Remote_Mag";};
 
 player addHeadgear "H_HelmetB_Enh_tna_F";

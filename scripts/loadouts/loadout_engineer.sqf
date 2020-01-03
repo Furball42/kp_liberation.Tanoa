@@ -29,7 +29,6 @@ player addItemToBackpack "ToolKit";
 player addItemToBackpack "MineDetector";
 player addWeapon "Binocular";
 player addItemToBackpack "ACRE_PRC152";
-player addItemToUniform "FirstAidKit";
 player addItemToVest "SmokeShellGreen";
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
 for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiRed";};

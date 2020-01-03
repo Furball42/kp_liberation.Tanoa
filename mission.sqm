@@ -8,7 +8,7 @@ class EditorData
 	toggles=1;
 	class ItemIDProvider
 	{
-		nextID=4540;
+		nextID=4542;
 	};
 	class LayerIndexProvider
 	{
@@ -16,10 +16,10 @@ class EditorData
 	};
 	class Camera
 	{
-		pos[]={1454.6937,21.713924,740.51923};
-		dir[]={-0.0023777562,-0.96139032,0.27523953};
-		up[]={-0.0083057554,0.27517685,0.96135753};
-		aside[]={0.99997795,-4.647427e-007,0.0086400239};
+		pos[]={1455.9939,21.713924,735.79309};
+		dir[]={0.059645124,-0.92559308,0.37379903};
+		up[]={0.14584753,0.37851056,0.91403508};
+		aside[]={0.98751092,4.8457878e-008,-0.15757182};
 	};
 };
 binarizationWanted=0;
@@ -20361,6 +20361,25 @@ class Mission
 					{
 						class Attribute0
 						{
+							property="ace_isMedic";
+							expression="if (_value != -1 && {_value != (parseNumber (_this getUnitTrait 'medic'))}) then {_this setVariable [""ace_medical_medicClass"", _value, true]}";
+							class Value
+							{
+								class data
+								{
+									class type
+									{
+										type[]=
+										{
+											"SCALAR"
+										};
+									};
+									value=1;
+								};
+							};
+						};
+						class Attribute1
+						{
 							property="speaker";
 							expression="_this setspeaker _value;";
 							class Value
@@ -20378,7 +20397,7 @@ class Mission
 								};
 							};
 						};
-						class Attribute1
+						class Attribute2
 						{
 							property="pitch";
 							expression="_this setpitch _value;";
@@ -20397,7 +20416,7 @@ class Mission
 								};
 							};
 						};
-						nAttributes=2;
+						nAttributes=3;
 					};
 				};
 				class Item1
@@ -20586,17 +20605,17 @@ class Mission
 					dataType="Object";
 					class PositionInfo
 					{
-						position[]={1459.717,2.6534481,738.82098};
+						position[]={1459.9932,2.6712267,738.84076};
 					};
 					side="West";
 					flags=5;
 					class Attributes
 					{
-						name="divermedic";
-						description="Assault Dive Medic";
+						name="diver3_1";
+						description="Assault Diver";
 						isPlayable=1;
 					};
-					id=4529;
+					id=4541;
 					type="B_diver_F";
 					class CustomAttributes
 					{
@@ -20615,7 +20634,7 @@ class Mission
 											"STRING"
 										};
 									};
-									value="Male11ENG";
+									value="Male01ENG";
 								};
 							};
 						};
@@ -20634,7 +20653,7 @@ class Mission
 											"SCALAR"
 										};
 									};
-									value=1.02;
+									value=0.98000002;
 								};
 							};
 						};

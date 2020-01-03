@@ -8,7 +8,9 @@ GRLIB_arsenal_weapons = [
     "SMG_01_F",
     "MMG_02_black_F",
     "arifle_MXM_khk_F",
-    "arifle_SDAR_F"
+    "arifle_SDAR_F",
+    "hgun_P07_F",
+    "srifle_LRR_tna_F"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -20,7 +22,9 @@ GRLIB_arsenal_magazines = [
     "MRAWS_HE_F",
     "30Rnd_45ACP_Mag_SMG_01",
     "130Rnd_338_Mag",
-    "20Rnd_556x45_UW_mag"
+    "20Rnd_556x45_UW_mag",
+    "30Rnd_556x45_Stanag_red",
+    "7Rnd_408_Mag"
 ];
 
 GRLIB_arsenal_items = [
@@ -47,6 +51,7 @@ GRLIB_arsenal_items = [
     "H_Booniehat_oli",
     "acc_pointer_IR", //optics and weapon items
     "optic_Hamr_khk_F",
+    "optic_LRPS",
     "optic_Holosight_khk_F",
     "optic_Holosight_smg",
     "optic_Hamr",
@@ -58,6 +63,7 @@ GRLIB_arsenal_items = [
     "optic_ERCO_khk_F",
     "bipod_01_F_snd",
     "muzzle_snds_H_khk_F",
+    "muzzle_snds_L",
     "MiniGrenade", //grenades
     "HandGrenade",
     "1Rnd_HE_Grenade_shell",
@@ -71,10 +77,12 @@ GRLIB_arsenal_items = [
     "1Rnd_SmokeGreen_Grenade_shell",
     "1Rnd_SmokeOrange_Grenade_shell",
     "UGL_FlareWhite_F",
+    "ACE_HuntIR_M203",
     "Chemlight_green", //chemlights
     "ACE_Chemlight_HiGreen",
     "ACE_Chemlight_HiRed",
     "ACE_Chemlight_IR",
+    "ACE_Chemlight_HiBlue",
     "ACE_Clacker", //engineering and sapping
     "ACE_DefusalKit",
     "ToolKit",
@@ -97,6 +105,7 @@ GRLIB_arsenal_items = [
     "SAN_Headlamp_v2",
     "G_B_Diving",
     "NVGoggles_OPFOR",
+    "B_UavTerminal",
     "ace_morphine", //ace stuff
     "ace_fielddressing",
     "ACE_packingbandage",

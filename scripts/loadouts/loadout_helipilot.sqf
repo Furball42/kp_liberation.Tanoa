@@ -17,7 +17,6 @@ player addPrimaryWeaponItem "30Rnd_45ACP_Mag_SMG_01";
 player forceAddUniform "U_B_HeliPilotCoveralls";
 player addVest "V_TacVest_blk";
 
-player addItemToUniform "FirstAidKit";
 player addItemToVest "ACRE_PRC152";
 player addItemToUniform "SmokeShellGreen";
 player addItemToVest "ACE_EarPlugs";
