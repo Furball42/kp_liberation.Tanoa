@@ -34,6 +34,11 @@ if ( dialog ) then {
 [ "halo_map_event", "onMapSingleClick" ] call BIS_fnc_removeStackedEventHandler;
 
 if ( dojump > 0 ) then {
+
+	player execVM "scripts\loadouts\loadout_halo.sqf";
+
+	sleep 1;
+
 	GRLIB_last_halo_jump = time;
 	halo_position = halo_position getPos [random 250, random 360];
 	halo_position = [ halo_position select 0, halo_position select 1, GRLIB_halo_altitude + (random 200) ];
@@ -42,12 +47,15 @@ if ( dojump > 0 ) then {
 	cutRsc ["fasttravel", "PLAIN", 1];
 	playSound "parasound";
 	sleep 2;
+	
 	_backpack = backpack player;
 	if ( _backpack != "" && _backpack != "B_Parachute" ) then {
 		_backpackcontents = backpackItems player;
 		removeBackpack player;
 		sleep 0.1;
 	};
+
+
 	player addBackpack "B_Parachute";
 
 	player setpos halo_position;
@@ -55,6 +63,8 @@ if ( dojump > 0 ) then {
 	sleep 4;
 	halojumping = false;
 	waitUntil { !alive player || isTouchingGround player };
+
+
 	if ( _backpack != "" && _backpack != "B_Parachute" ) then {
 		sleep 2;
 		player addBackpack _backpack;
