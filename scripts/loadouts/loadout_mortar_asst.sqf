@@ -23,7 +23,9 @@ player addBackpack "B_Mortar_01_support_F";
 for "_i" from 1 to 4 do {player addItemToUniform "16Rnd_9x21_yellow_Mag";};
 for "_i" from 1 to 2 do {player addItemToUniform "16Rnd_9x21_Mag";};
 
+player addWeapon "Binocular";
 player addItemToVest "ACE_RangeTable_82mm";
+player addItemToBackpack "ACRE_PRC152";
 for "_i" from 1 to 8 do {player addItemToVest "ACE_fieldDressing";};
 player addItemToVest "ACE_bloodIV";
 player addItemToVest "ACE_EarPlugs";

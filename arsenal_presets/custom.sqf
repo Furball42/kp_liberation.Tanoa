@@ -24,7 +24,8 @@ GRLIB_arsenal_magazines = [
     "130Rnd_338_Mag",
     "20Rnd_556x45_UW_mag",
     "30Rnd_556x45_Stanag_red",
-    "7Rnd_408_Mag"
+    "7Rnd_408_Mag",
+    "16Rnd_9x21_Mag"
 ];
 
 GRLIB_arsenal_items = [
@@ -52,6 +53,7 @@ GRLIB_arsenal_items = [
     "acc_pointer_IR", //optics and weapon items
     "optic_Hamr_khk_F",
     "optic_LRPS",
+    "optic_Holosight",
     "optic_Holosight_khk_F",
     "optic_Holosight_smg",
     "optic_Hamr",
@@ -106,13 +108,7 @@ GRLIB_arsenal_items = [
     "G_B_Diving",
     "NVGoggles_OPFOR",
     "B_UavTerminal",
-    "ace_morphine", //ace stuff
-    "ace_fielddressing",
-    "ACE_packingbandage",
-    "ACE_tourniquet",
-    "ACE_bloodIV",
-    "ACE_EarPlugs",
-    "ACE_epinephrine",
+    "ACE_EarPlugs", //ace stuff
     "ACE_IR_Strobe_Item",
     "ACE_MapTools",
     "ACE_Flashlight_XL50",
@@ -121,7 +117,21 @@ GRLIB_arsenal_items = [
     "ACE_Altimeter",
     "ACE_SpottingScope",
     "ACE_microDAGR",
-    "ACE_HuntIR_monitor"
+    "ACE_HuntIR_monitor",
+    "ACE_EntrenchingTool",
+    "ace_fielddressing", //ace medical
+    "ACE_packingbandage",
+    "ACE_tourniquet",
+    "ACE_elasticBandage",
+    "ACE_quikclot",
+    "ACE_splint",
+    "ACE_bloodIV",
+    "ace_morphine",
+    "ACE_epinephrine",
+    "ACE_surgicalKit",
+    "ACE_personalAidKit",
+    "ACE_adenosine",
+    "ACE_salineIV_500"
 ];
 
 GRLIB_arsenal_backpacks = [

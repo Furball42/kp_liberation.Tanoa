@@ -34,5 +34,5 @@ player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
 player linkItem "ItemGPS";
-player linkItem "NVGoggles";
+player linkItem "NVGoggles_tna_F";
 
