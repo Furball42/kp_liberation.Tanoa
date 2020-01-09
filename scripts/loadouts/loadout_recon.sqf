@@ -35,6 +35,9 @@ for "_i" from 1 to 3 do {player addItemToBackpack "ACE_HuntIR_M203";};
 player addItemToBackpack "ACE_microDAGR";
 player addItemToBackpack "ACE_HuntIR_monitor";
 
+//random face gear
+[player] execVM "scripts\loadouts\loadout_random_face.sqf";
+
 //gear
 [player] execVM "scripts\loadouts\loadout_template_misc.sqf";
 

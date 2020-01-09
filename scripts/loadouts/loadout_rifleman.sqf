@@ -31,6 +31,9 @@ player addWeapon "Binocular";
 //random head gear
 [player] execVM "scripts\loadouts\loadout_random_helmet.sqf";
 
+//random face gear
+[player] execVM "scripts\loadouts\loadout_random_face.sqf";
+
 //gear
 [player] execVM "scripts\loadouts\loadout_template_misc.sqf";
 

@@ -41,6 +41,9 @@ for "_i" from 1 to 3 do {player addItemToBackpack "ACE_personalAidKit";};
 for "_i" from 1 to 3 do {player addItemToBackpack "ACE_surgicalKit";};
 for "_i" from 1 to 3 do {player addItemToBackpack "ACE_splint";};
 
+//random face gear
+[player] execVM "scripts\loadouts\loadout_random_face.sqf";
+
 //random head gear
 [player] execVM "scripts\loadouts\loadout_random_helmet.sqf";
 

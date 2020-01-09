@@ -10,7 +10,10 @@ GRLIB_arsenal_weapons = [
     "arifle_MXM_khk_F",
     "arifle_SDAR_F",
     "hgun_P07_F",
-    "srifle_LRR_tna_F"
+    "srifle_LRR_tna_F",
+    "srifle_DMR_02_F",
+    "arifle_MXM_Black_F",
+    "Laserdesignator_01_khk_F"
 ];
 
 GRLIB_arsenal_magazines = [
@@ -25,7 +28,9 @@ GRLIB_arsenal_magazines = [
     "20Rnd_556x45_UW_mag",
     "30Rnd_556x45_Stanag_red",
     "7Rnd_408_Mag",
-    "16Rnd_9x21_Mag"
+    "16Rnd_9x21_Mag",
+    "10Rnd_338_Mag",
+    "30Rnd_65x39_caseless_black_mag"
 ];
 
 GRLIB_arsenal_items = [
@@ -50,6 +55,9 @@ GRLIB_arsenal_items = [
     "H_MilCap_tna_F",
     "H_Shemag_olive",
     "H_Booniehat_oli",
+    "H_Booniehat_tna_F",
+    "H_Cap_oli",
+    "H_HelmetB_snakeskin",
     "acc_pointer_IR", //optics and weapon items
     "optic_Hamr_khk_F",
     "optic_LRPS",
@@ -66,6 +74,17 @@ GRLIB_arsenal_items = [
     "bipod_01_F_snd",
     "muzzle_snds_H_khk_F",
     "muzzle_snds_L",
+    "optic_ERCO_khk_F",
+    "optic_AMS_khk",
+    "ACE_optic_LRPS_2D",
+    "optic_LRPS_tna_F",
+    "optic_SOS",
+    "optic_DMS",
+    "optic_Arco",
+    "optic_MRCO",
+    "optic_KHS_blk",
+    "optic_AMS",
+    "optic_Arco_blk_F",
     "MiniGrenade", //grenades
     "HandGrenade",
     "1Rnd_HE_Grenade_shell",
@@ -103,11 +122,15 @@ GRLIB_arsenal_items = [
     "ItemWatch",
     "ItemRadio",
     "ItemGPS",
-    "NVGoggles_tna_F",
     "SAN_Headlamp_v2",
     "G_B_Diving",
     "NVGoggles_OPFOR",
+    "NVGoggles_tna_F",
+    "ACE_NVG_Gen4",
+    "ACE_NVG_Wide",
     "B_UavTerminal",
+    "ACE_VectorDay",
+    "Laserbatteries",
     "ACE_EarPlugs", //ace stuff
     "ACE_IR_Strobe_Item",
     "ACE_MapTools",
@@ -119,6 +142,11 @@ GRLIB_arsenal_items = [
     "ACE_microDAGR",
     "ACE_HuntIR_monitor",
     "ACE_EntrenchingTool",
+    "ACE_Kestrel4500",
+    "ACE_Tripod",
+    "ACE_Flashlight_MX991",
+    "ACE_ATragMX",
+    "ACE_MX2A",
     "ace_fielddressing", //ace medical
     "ACE_packingbandage",
     "ACE_tourniquet",
@@ -131,7 +159,15 @@ GRLIB_arsenal_items = [
     "ACE_surgicalKit",
     "ACE_personalAidKit",
     "ACE_adenosine",
-    "ACE_salineIV_500"
+    "ACE_salineIV_500",
+    "G_Bandanna_oli", //face
+    "G_Bandanna_tan",
+    "G_Lowprofile",
+    "G_Combat",
+    "G_Balaclava_TI_G_tna_F",
+    "G_Combat_Goggles_tna_F",
+    "G_Sport_Blackred",
+    "G_Aviator"
 ];
 
 GRLIB_arsenal_backpacks = [
