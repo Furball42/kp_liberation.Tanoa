@@ -39,7 +39,11 @@ player addItemToVest "ACE_Flashlight_XL50";
 player addItemToVest "ACE_MapTools";
 player addItemToVest "ACE_microDAGR";
 
-player addHeadgear "H_Booniehat_oli";
+//random head gear
+[player] execVM "scripts\loadouts\loadout_random_helmet.sqf";
+
+//random face gear
+[player] execVM "scripts\loadouts\loadout_random_face.sqf";
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";

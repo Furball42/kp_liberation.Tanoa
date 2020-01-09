@@ -33,4 +33,5 @@ player addGoggles "G_Tactical_Black";
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
+player linkItem "NVGoggles_tna_F";
 

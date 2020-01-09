@@ -36,6 +36,7 @@ player addItemToBackpack "ItemWatch";
 player addItemToBackpack "NVGoggles_tna_F";
 player addItemToBackpack "H_HelmetB_Light_tna_F";
 player addItemToBackpack "Binocular";
+player addItemToBackpack "ACRE_PRC152";
 for "_i" from 1 to 2 do {player addItemToBackpack "16Rnd_9x21_Mag";};
 player addItemToBackpack "SmokeShellGreen";
 for "_i" from 1 to 5 do {player addItemToBackpack "30Rnd_65x39_caseless_black_mag";};
