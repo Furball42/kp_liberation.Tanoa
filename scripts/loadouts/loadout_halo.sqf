@@ -52,6 +52,7 @@ player linkItem "VQI_ASTRA";
 player linkItem "ACE_Altimeter";
 player linkItem "VQI_Sentinel";
 player linkItem "VQI_ReserveChute";
+player linkItem "ACE_NVG_Wide";
 
 sleep 2;
 
