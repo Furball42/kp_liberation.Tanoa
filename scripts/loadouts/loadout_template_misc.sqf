@@ -13,6 +13,8 @@ player addItemToVest "ACE_Chemlight_IR";
 for "_i" from 1 to 3 do {player addItemToVest "SmokeShell";};
 player addItemToVest "SmokeShellRed";
 player addItemToVest "SmokeShellGreen";
+player addItemToUniform "ItemcTabHCam";
+player addItemToBackpack "po_canteen_item";
 
 player linkItem "ItemMap";
 player linkItem "ItemCompass";

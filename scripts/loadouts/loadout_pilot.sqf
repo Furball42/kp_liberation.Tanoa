@@ -30,6 +30,8 @@ for "_i" from 1 to 2 do {player addItemToVest "ACE_Chemlight_HiGreen";};
 player addHeadgear "H_PilotHelmetFighter_B";
 player addGoggles "G_Tactical_Black";
 
+player addItemToVest "ACE_microDAGR";
+
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";

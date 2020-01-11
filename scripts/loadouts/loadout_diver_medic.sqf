@@ -48,9 +48,11 @@ for "_i" from 1 to 5 do {player addItemToBackpack "ACE_adenosine";};
 for "_i" from 1 to 3 do {player addItemToBackpack "ACE_epinephrine";};
 for "_i" from 1 to 2 do {player addItemToBackpack "ACE_splint";};
 
+player addItemToUniform "ItemcTabHCam";
+player addItemToBackpack "ACE_microDAGR";
+
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
-player linkItem "ItemGPS";
 player linkItem "NVGoggles_OPFOR";
 

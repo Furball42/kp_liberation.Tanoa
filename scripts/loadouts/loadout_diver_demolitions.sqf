@@ -46,9 +46,11 @@ for "_i" from 1 to 2 do {player addItemToBackpack "ACE_morphine";};
 player addItemToBackpack "ACE_splint";
 player addItemToBackpack "ACE_epinephrine";
 
+player addItemToUniform "ItemcTabHCam";
+player addItemToBackpack "ACE_microDAGR";
+
 player linkItem "ItemMap";
 player linkItem "ItemCompass";
 player linkItem "ACE_Altimeter";
-player linkItem "ItemGPS";
 player linkItem "NVGoggles_OPFOR";
 
