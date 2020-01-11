@@ -38,6 +38,7 @@ player addItemToVest "ACE_IR_Strobe_Item";
 player addItemToVest "ACE_Flashlight_XL50";
 player addItemToVest "ACE_MapTools";
 player addItemToVest "ACE_microDAGR";
+player addItemToBackpack "po_canteen_item";
 
 //random head gear
 [player] execVM "scripts\loadouts\loadout_random_helmet.sqf";
@@ -45,9 +46,8 @@ player addItemToVest "ACE_microDAGR";
 //random face gear
 [player] execVM "scripts\loadouts\loadout_random_face.sqf";
 
-player linkItem "ItemMap";
-player linkItem "ItemCompass";
-player linkItem "ACE_Altimeter";
+//gear
+[player] execVM "scripts\loadouts\loadout_template_misc.sqf";
+
 player linkItem "B_UavTerminal";
-player linkItem "NVGoggles_OPFOR";
 

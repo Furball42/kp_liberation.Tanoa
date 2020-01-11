@@ -104,6 +104,7 @@ GRLIB_arsenal_items = [
     "ACE_Chemlight_HiRed",
     "ACE_Chemlight_IR",
     "ACE_Chemlight_HiBlue",
+    "ACE_Chemlight_HiYellow",
     "ACE_Clacker", //engineering and sapping
     "ACE_DefusalKit",
     "ToolKit",
@@ -131,6 +132,9 @@ GRLIB_arsenal_items = [
     "B_UavTerminal",
     "ACE_VectorDay",
     "Laserbatteries",
+    "ItemcTab",
+    "ItemcTabHCam",
+    "po_canteen_item",
     "ACE_EarPlugs", //ace stuff
     "ACE_IR_Strobe_Item",
     "ACE_MapTools",

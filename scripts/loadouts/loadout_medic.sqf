@@ -9,7 +9,7 @@ removeBackpack player;
 removeHeadgear player;
 removeGoggles player;
 
-player addWeapon "arifle_MX_khk_F";
+player addWeapon "arifle_MXC_khk_F";
 player addPrimaryWeaponItem "acc_pointer_IR";
 player addPrimaryWeaponItem "optic_Hamr";
 player addPrimaryWeaponItem "30Rnd_65x39_caseless_khaki_mag";

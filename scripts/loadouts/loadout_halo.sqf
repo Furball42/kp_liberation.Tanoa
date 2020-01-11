@@ -47,11 +47,14 @@ player addItemToBackpack "MiniGrenade";
 player addHeadgear "VQI_Helmet_HALO";
 player addGoggles "G_Balaclava_blk";
 
+player addItemToUniform "ItemcTabHCam";
+
 player linkItem "ItemMap";
 player linkItem "VQI_ASTRA";
 player linkItem "ACE_Altimeter";
 player linkItem "VQI_Sentinel";
 player linkItem "VQI_ReserveChute";
+player linkItem "ACE_NVG_Wide";
 
 sleep 2;
 

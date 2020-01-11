@@ -5,8 +5,7 @@ private _headGear = ["H_HelmetB_tna_F",
     "H_Booniehat_oli",
     "H_Booniehat_tna_F",
     "H_Cap_oli",
-    "H_HelmetB_snakeskin",
-    ""];
+    "H_HelmetB_snakeskin"];
 
 _randomHeadGear = selectRandom _headGear;
 

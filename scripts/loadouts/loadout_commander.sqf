@@ -27,6 +27,7 @@ for "_i" from 1 to 2 do {player addItemToVest "30Rnd_65x39_caseless_khaki_mag_Tr
 for "_i" from 1 to 2 do {player addItemToVest "16Rnd_9x21_Mag";};
 
 player addWeapon "Rangefinder";
+player linkItem "ItemcTab";
 
 for "_i" from 1 to 2 do {player addItemToBackpack "UGL_FlareWhite_F";};
 for "_i" from 1 to 2 do {player addItemToBackpack "1Rnd_Smoke_Grenade_shell";};
